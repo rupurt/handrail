@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  database: handrail_development
+  username: <%= `whoami` %>
+  password:
+
+test:
+  adapter: postgresql
+  database: handrail_test
+  username: <%= `whoami` %>
+  password:
+
+production:
+  adapter: postgresql
+  database: handrail_production
+  username: <%= `whoami` %>
+  password:
