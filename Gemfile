@@ -15,8 +15,10 @@ end
 
 group :development, :test do
   gem 'capybara-webkit'
+  gem 'database_cleaner'
   gem 'factory_girl_rails'
   gem 'fuubar'
+  gem 'pry'
   gem 'rspec-rails'
   gem 'shoulda-matchers'
 end
